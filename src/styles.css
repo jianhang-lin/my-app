@@ -30,6 +30,11 @@ a {
   color: white;
 }
 
+.button:hover button:hover {
+  opacity: 0.8;
+  font-weight: normal;
+}
+
 /* Fancy Button */
 .fancy-button {
   background-color: white;
