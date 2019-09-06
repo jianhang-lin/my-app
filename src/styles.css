@@ -36,6 +36,11 @@ a {
   color: #1976d2;
 }
 
+.fancy-button i.material-icons {
+  color: #1976d2;
+  padding-right: 4px;
+}
+
 /* TopBar */
 app-top-bar {
   width: 100%;
