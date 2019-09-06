@@ -30,6 +30,10 @@ import { CartComponent } from './cart/cart.component';
       {
         path: 'products/:productId',
         component: ProductDetailsComponent
+      },
+      {
+        path: 'cart',
+        component: CartComponent
       }
     ])
   ],
