@@ -7,4 +7,14 @@ export class CartService {
   items = [];
 
   constructor() { }
+  addToCart(product) {
+    this.items.push(product);
+  }
+  getItems() {
+    return this.items;
+  }
+  cleaCart() {
+    this.items = [];
+    return this.items;
+  }
 }
