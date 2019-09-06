@@ -16,7 +16,12 @@ import { ProductListComponent } from './product-list/product-list.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    RouterModule.forRoot([])
+    RouterModule.forRoot([
+      {
+        path: '',
+        component: ProductListComponent
+      }
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
